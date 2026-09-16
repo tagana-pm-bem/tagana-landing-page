@@ -252,17 +252,20 @@ function PrivacyContent() {
 
       <SectionBlock id="sec-7" title="7. Penghapusan Akun dan Data">
         <p>
-          Pengguna dapat meminta penghapusan akun dan data pribadi yang terkait dengan akun TAGANA.
-          Permintaan penghapusan dapat dilakukan dengan menghubungi kami melalui informasi kontak
-          yang tersedia di bagian <strong>Kontak</strong> pada Kebijakan Privasi ini.
+          Sesuai dengan ketentuan keamanan data, pengguna dapat meminta penghapusan akun dan seluruh data pribadi yang terkait dengan akun TAGANA. 
+          Saat ini, permintaan penghapusan akun diproses secara manual dengan menghubungi tim kami secara langsung melalui:
+        </p>
+        <div className="bg-[#EFF6FF] border border-blue-100 rounded-lg p-4 my-4">
+          <ul className="list-disc pl-5 font-body text-sm text-text-secondary space-y-1">
+            <li><strong>Email:</strong> taganahiliriset@gmail.com</li>
+            <li><strong>WhatsApp:</strong> (Melalui kontak resmi TAGANA)</li>
+          </ul>
+        </div>
+        <p>
+          Setelah permintaan diterima dan identitas Anda berhasil diverifikasi, kami akan memproses penghapusan seluruh data pribadi, kredensial login, dan riwayat perangkat IoT Anda dari sistem kami secara permanen.
         </p>
         <p>
-          Setelah permintaan diterima dan diverifikasi, kami akan memproses penghapusan data sesuai
-          dengan ketentuan yang berlaku dan kebutuhan teknis atau hukum yang relevan.
-        </p>
-        <p>
-          Beberapa data mungkin perlu dipertahankan untuk jangka waktu tertentu apabila diwajibkan
-          oleh hukum atau diperlukan untuk tujuan keamanan dan penyelesaian sengketa.
+          Beberapa data log teknis mungkin dipertahankan sementara secara anonim untuk jangka waktu tertentu apabila diwajibkan oleh hukum atau diperlukan untuk tujuan keamanan dan penyelesaian sengketa, namun data tersebut tidak akan lagi terkait dengan identitas Anda.
         </p>
       </SectionBlock>
 

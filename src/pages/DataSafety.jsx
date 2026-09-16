@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { ChevronRight, ShieldCheck, Lock, Server, Key, EyeOff, Activity, FileText } from 'lucide-react'
+import { ChevronRight, ShieldCheck, Lock, Server, Key, EyeOff, Activity, FileText, Trash2 } from 'lucide-react'
 
 const safetySections = [
   {
@@ -84,6 +84,32 @@ const safetySections = [
         <ul className="list-disc pl-5 font-body text-text-secondary space-y-2">
           <li><strong>Right to be Forgotten:</strong> Anda memiliki hak penuh untuk menghapus akun Anda beserta seluruh riwayat data IoT dan telemetri Anda. Penghapusan ini bersifat permanen dari database utama kami.</li>
           <li><strong>Non-Disclosure:</strong> Kami tidak pernah memperjualbelikan, menyewakan, atau membagikan data operasional IoT Anda kepada pihak ketiga untuk tujuan periklanan atau komersialisasi.</li>
+        </ul>
+      </>
+    )
+  },
+  {
+    id: 'penghapusan',
+    title: 'Penghapusan Akun & Data',
+    icon: Trash2,
+    content: (
+      <>
+        <p className="font-body text-text-secondary leading-relaxed mb-4">
+          Sesuai dengan panduan keamanan data (Data Safety) Google Play Store, kami menyediakan cara yang jelas dan mudah bagi pengguna untuk meminta penghapusan akun dan seluruh data yang terkait.
+        </p>
+        <div className="bg-[#EFF6FF] border border-blue-100 rounded-lg p-4 mb-4">
+          <p className="font-body text-sm text-text-primary font-semibold mb-2">Cara Meminta Penghapusan Akun:</p>
+          <p className="font-body text-sm text-text-secondary mb-3">
+            Saat ini, penghapusan akun aplikasi TAGANA dilakukan dengan menghubungi pihak kami secara langsung melalui:
+          </p>
+          <ul className="list-disc pl-5 font-body text-sm text-text-secondary space-y-1">
+            <li><strong>Email:</strong> taganahiliriset@gmail.com</li>
+            <li><strong>WhatsApp:</strong> +62 857-4341-3969</li>
+          </ul>
+        </div>
+        <ul className="list-disc pl-5 font-body text-text-secondary space-y-2">
+          <li><strong>Proses Verifikasi:</strong> Kami akan memverifikasi identitas Anda untuk memastikan keamanan akun sebelum memproses penghapusan.</li>
+          <li><strong>Data yang Dihapus:</strong> Seluruh informasi pribadi (nama, email, no HP), riwayat perangkat, log sensor, dan data autentikasi Anda akan dihapus secara permanen dari server kami.</li>
         </ul>
       </>
     )
@@ -191,8 +217,8 @@ export default function DataSafety() {
               <p className="font-body text-xs text-text-muted leading-relaxed mb-3">
                 Memiliki laporan kerentanan (vulnerability)? Hubungi tim keamanan kami.
               </p>
-              <a href="mailto:security@tagana.com" className="font-body text-sm font-semibold text-primary hover:underline">
-                security@tagana.com
+              <a href="mailto:taganahiliriset@gmail.com" className="font-body text-sm font-semibold text-primary hover:underline">
+                taganahiliriset@gmail.com
               </a>
             </div>
           </div>
